@@ -15,6 +15,7 @@ class Television:
 
     def turnOff(self):
         print("This TV is turned off")
+        on = False
 
     def getChannel(self):
         print(f'The channel is {self.channel}')

@@ -3,7 +3,7 @@
 #create functions for tv
 #set values for each parameter
 
-class TV:
+class Television:
     def __init__(self, channel, volume):
         #create attributes
         self.channel = channel
@@ -27,6 +27,7 @@ class TV:
             else:
                 self.channel = channel
                 print(f'The current channel is {channel}')
+                break
 
     def getVolume(self):
         print(f'The volume is {self.volume}')
@@ -38,7 +39,8 @@ class TV:
                 print("The channels are only 1-7")
             else:
                 self.volume = volume
-                print(f'The current channel is {volume}')
+                print(f'The current volume is {volume}')
+                break
 
     def channelUp(self):
         if self.channel == 120:

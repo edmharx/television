@@ -1,8 +1,8 @@
 from TV import Television
 import keyboard
 
-tv_1 = Television(30, 3)
-tv_2 = Television(3, 2)
+tv_1 = Television("TV 1", 30, 3)
+tv_2 = Television("TV 2", 3, 2)
 
 #showcase the methods
 #create a working remote control for tv using keyboard press
